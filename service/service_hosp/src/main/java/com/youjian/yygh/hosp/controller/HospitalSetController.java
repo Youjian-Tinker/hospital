@@ -1,12 +1,10 @@
 package com.youjian.yygh.hosp.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.baomidou.mybatisplus.extension.api.R;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.youjian.yygh.common.result.Result;
 import com.youjian.yygh.common.utils.MD5;
 import com.youjian.yygh.hosp.service.HospitalSetService;
-import com.youjian.yygh.model.hosp.Hospital;
 import com.youjian.yygh.model.hosp.HospitalSet;
 import com.youjian.yygh.vo.hosp.HospitalSetQueryVo;
 import io.swagger.annotations.Api;
@@ -15,7 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
-import java.sql.ResultSet;
 import java.util.List;
 import java.util.Random;
 
